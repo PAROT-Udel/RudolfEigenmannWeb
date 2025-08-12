@@ -8,8 +8,8 @@ title: "Courses (Being) Taught"
     - [Syllabus](https://docs.google.com/document/d/1L0vuEytoBtpijLnBcjHWcND1xKKD-tpPLGbwehKIlaA/edit#heading=h.etiqjkv2wi97)
 
 ## Computational & Data-Intensive Research Platforms & Applications
-- CPEG 467/667: (Fall 2019, Fall 2020)
-    - [Syllabus](/files/pdf/teaching/CPEG667-syllabus-F20)
+- CPEG 467/667: (Fall 2025)
+    - [Syllabus](https://docs.google.com/document/d/1garGhfPLbYCo9y57AgecQiUVxaWn2AVHxOJKyX-g3hw/edit?tab=t.0)
 
 ## Digital Systems Seminar
 - ELEG 662: (Spring 2019, Fall2022)
@@ -18,3 +18,4 @@ title: "Courses (Being) Taught"
 
 ## VIP CISC and ELEG 467
 - (Fall 2018-present)- section on High-Performance Computing
+
