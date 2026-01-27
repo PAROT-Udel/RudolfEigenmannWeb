@@ -4,8 +4,8 @@ title: "Courses (Being) Taught"
 ---
 
 ## Principles of Parallel Computer Architectures
-- CPEG/ELEG 652: (Spring 2023, 2024)
-    - [Syllabus](https://docs.google.com/document/d/1L0vuEytoBtpijLnBcjHWcND1xKKD-tpPLGbwehKIlaA/edit#heading=h.etiqjkv2wi97)
+- CPEG/ELEG 652: (Spring 2026)
+    - [Syllabus](https://docs.google.com/document/d/1NPQQu0o95tm5OIe0kMKjDU791gueChYf4BuJ74nqckA/edit?usp=sharing)
 
 ## Computational & Data-Intensive Research Platforms & Applications
 - CPEG 467/667: (Fall 2025)
@@ -18,4 +18,5 @@ title: "Courses (Being) Taught"
 
 ## VIP CISC and ELEG 467
 - (Fall 2018-present)- section on High-Performance Computing
+
 
