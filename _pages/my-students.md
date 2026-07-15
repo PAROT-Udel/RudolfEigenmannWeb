@@ -153,7 +153,7 @@ Our goal is to develop a tool that allows users with varying skill sets to apply
   </div>
   <div class="grid-item">
   	<p align="left" >
-        I am a 24 years old P.hd student from the department of Computer Engineering at the University of Delaware. I am  from Cali-Colombia  and am an alumni from the Community College Initiative program  2017-2018 at Houston Community College. Also, I am a community leader with a solid professional and academic background in human rights and Software Engineering. Throughout my work at the Universidad ICESI in Colombia, I have contributed to original concepts for  software engineering, and machine learning methodologies. Right now, I am part of the National Science Foundation-supported project designed to expand access to artificial intelligence, led by The Ohio State University. 
+        I am a P.hd student from the department of Computer Engineering at the University of Delaware. I am  from Cali-Colombia  and am an alumni from the Community College Initiative program  2017-2018 at Houston Community College. Also, I am a community leader with a solid professional and academic background in human rights and Software Engineering. Throughout my work at the Universidad ICESI in Colombia, I have contributed to original concepts for  software engineering, and machine learning methodologies. Right now, I am part of the National Science Foundation-supported project designed to expand access to artificial intelligence, led by The Ohio State University. 
       </p>
   
   </div>
