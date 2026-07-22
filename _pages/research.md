@@ -11,9 +11,9 @@ header:
 <img src="../images/research/AI.jpg" width="300" 
      height="300" alt="AI">
 
-Achieving high performance on today's processors relies on different compiler optimizations. Determine what optimizations to apply and where depends on the program and the target platform. Additionally, the different sets of optimizations will create a vast optimization space, where each of the optimizations can provide good performance individually, and when combined they could increase or degrade performance. In other words, choosing the best set of optimizations will maximize the performance of a target application.  
+Achieving high performance on today's processors requires compiler optimizations that match the structure of the program and the characteristics of the target architecture. Transformations such as loop interchange, tiling, unrolling, vectorization, and parallelization can improve data locality, expose concurrency, and reduce execution time. However, their effects are not independent: an optimization that benefits one application or architecture may provide little benefit, or even degrade performance, when combined with other transformations. The number and ordering of candidate transformations therefore create a large, architecture-dependent optimization space.
 
-Hence, it is essential to evaluate different combinations of optimizations and find the optimal combination.
+This research investigates machine-learning-guided methods for navigating this space. These methods combine program features with compile-run feedback to evaluate candidate transformations for both correctness and performance. By learning from measured execution time and the outcomes of previous configurations, the optimization process can focus on promising combinations instead of relying on exhaustive search. The goal is to identify high-performing optimization sequences with fewer costly evaluations while preserving the behavior of the original program.
 
 <b>Research Staff: Miguel Rosas</b>
 
