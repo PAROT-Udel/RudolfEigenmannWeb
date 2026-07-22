@@ -11,9 +11,9 @@ title                    : "Rudolf Eigenmann"
 title_separator          : "-"
 name                     : &name "Rudolf Eigenmann"
 description              : &description "Professor Electrical and Computer Engineering"
-url                      : https://www.eecis.udel.edu/~eigenman # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "mike31860.github.io/rudolfEigenmann.github.io"
+url                      : "https://mike31860.github.io" # the base hostname and protocol
+baseurl                  : "/rudolfEigenmann.github.io" # the repository path for this project site
+repository               : "Mike31860/rudolfEigenmann.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
