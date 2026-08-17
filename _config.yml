@@ -127,6 +127,9 @@ include:
   - .htaccess
   - _pages
   - files
+  - BictexFile
+  - BictexFile/references.bib
+  - BictexFile/index.html
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
