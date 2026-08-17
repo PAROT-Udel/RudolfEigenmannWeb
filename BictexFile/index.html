@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>.bib File Display</title>
+  <title>Publications bibliography</title>
+  <meta charset="utf-8">
   <style>
     pre {
       white-space: pre-wrap;
@@ -10,19 +11,25 @@
   </style>
 </head>
 <body>
-  <pre id="bib-content"></pre>
+  <pre id="bib-content">Loading references.bib…</pre>
 
 <script>
-    // JavaScript code to fetch and display the .bib file content
-    fetch('references.bib')
-      .then(response => response.text())
-      .then(content => {
-        const bibContentElement = document.getElementById('bib-content');
-        bibContentElement.textContent = content;
-      })
-      .catch(error => {
-        console.error('Error fetching .bib file:', error);
-      });
-  </script>
+  // Same-folder fetch so this page and the Publications list share one .bib file.
+  fetch('references.bib')
+    .then(function (response) {
+      if (!response.ok) {
+        throw new Error('HTTP ' + response.status);
+      }
+      return response.text();
+    })
+    .then(function (content) {
+      document.getElementById('bib-content').textContent = content;
+    })
+    .catch(function (error) {
+      document.getElementById('bib-content').textContent =
+        'Could not load references.bib: ' + error;
+      console.error('Error fetching .bib file:', error);
+    });
+</script>
 </body>
 </html>
