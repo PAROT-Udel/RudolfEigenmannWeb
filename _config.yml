@@ -11,8 +11,8 @@ title                    : "Rudolf Eigenmann"
 title_separator          : "-"
 name                     : &name "Rudolf Eigenmann"
 description              : &description "Professor Electrical and Computer Engineering"
-url                      : "https://rudolfeigenmannweb.onrender.com" # the base hostname and protocol
-baseurl                  : "" # Render serves the site at the domain root
+url                      : "https://parot-udel.github.io" # the base hostname and protocol
+baseurl                  : "/RudolfEigenmannWeb" # GitHub Pages project site path
 repository               : "PAROT-Udel/RudolfEigenmannWeb"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
