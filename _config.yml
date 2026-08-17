@@ -11,9 +11,9 @@ title                    : "Rudolf Eigenmann"
 title_separator          : "-"
 name                     : &name "Rudolf Eigenmann"
 description              : &description "Professor Electrical and Computer Engineering"
-url                      : "https://mike31860.github.io" # the base hostname and protocol
-baseurl                  : "/rudolfEigenmann.github.io" # the repository path for this project site
-repository               : "Mike31860/rudolfEigenmann.github.io"
+url                      : "https://parot-udel.github.io" # the base hostname and protocol
+baseurl                  : "/RudolfEigenmannWeb" # the repository path for this project site
+repository               : "PAROT-Udel/RudolfEigenmannWeb"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160

@@ -24,11 +24,13 @@
 #    See the documentation for each action used below for the recommended IAM policies for this IAM user,
 #    and best practices on handling the access key credentials.
 
+# Disabled: this site is published with GitHub Pages (jekyll.yml), not Amazon ECS.
+# To re-enable, restore a real `on:` trigger (for example, push to master) and
+# remove the `if: false` on the deploy job.
 name: Deploy to Amazon ECS
 
 on:
-  push:
-    branches: [ "master" ]
+  workflow_dispatch:
 
 env:
   AWS_REGION: MY_AWS_REGION                   # set this to your preferred AWS region, e.g. us-west-1
@@ -46,6 +48,7 @@ permissions:
 jobs:
   deploy:
     name: Deploy
+    if: false
     runs-on: ubuntu-latest
     environment: production
 
