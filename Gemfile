@@ -18,7 +18,8 @@ gem 'tzinfo-data'
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# Windows directory watcher. Use platforms: so Linux CI sees the same Gemfile.
+gem "wdm", "~> 0.1.0", platforms: [:mingw, :x64_mingw, :mswin]
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
